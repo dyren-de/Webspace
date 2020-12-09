@@ -1,0 +1,539 @@
+Body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	background-color: #003;
+	background-image: url(bilder/back.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+#website {
+	background-color: green;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	box-shadow: 0px 4px 40px 1px black;
+}
+	
+header {
+	width: 1000px;
+	height: 278px;
+	background-color: #222;
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#space {
+	width: 80px;
+	height: 40px;
+	float: left;
+}
+
+#space a {
+	color: white;
+	float: right;
+	margin-top: 9px;
+	margin-right: 10px;
+}
+.menu, .menu ul, .menu li, .menu a {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.menu {	
+	height: 40px;
+	width: 1000px;
+	background-color: #343333;
+	border-top: 2px solid purple;
+	border-bottom: 2px solid purple;
+}
+
+.menu li {
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	list-style: none;
+	float: left;
+	display: block;
+	height: 40px;
+}
+
+.menu li a {
+	display: block;
+	padding: 0 14px;
+	margin: 6px 0;
+	line-height: 28px;
+	text-decoration: none;
+	font-size: 15px;
+	color: white;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: bold;	
+	color: #f3f3f3;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	-webkit-transition: color .1s ease-in-out;
+	-moz-transition: color .1s ease-in-out;
+	-o-transition: color .1s ease-in-out;
+	-ms-transition: color .1s ease-in-out;
+	transition: color .1s ease-in-out;
+}
+.menu li:first-child a { border-left: none; }
+.menu li:last-child a{ border-right: none; }
+.menu li:hover > a { color: purple; }
+
+.menu ul {
+	z-index: 10;
+	position: absolute;
+	top: 40px;
+	left: -12px;
+	background: #343333;
+	-webkit-border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	border-radius: 0 0 5px 5px;
+	border-left: 2px solid purple;
+	border-right: 2px solid purple;
+	border-bottom: 2px solid purple;
+	-webkit-transition: opacity .3s ease .1s;
+	-moz-transition: opacity .3s ease .1s;
+	-o-transition: opacity .3s ease .1s;
+	-ms-transition: opacity .3s ease .1s;
+	transition: opacity .3s ease .1s;
+}
+
+.menu li:hover > ul { opacity: 1; }
+
+.menu ul li {
+	height: 0;
+	overflow: hidden;
+	padding: 0;
+	-webkit-transition: height .3s ease .1s;
+	-moz-transition: height .3s ease .1s;
+	-o-transition: height .3s ease .1s;
+	-ms-transition: height .3s ease .1s;
+	transition: height .3s ease .1s;
+}
+
+.menu li:hover > ul li {
+	height: 36px;
+	overflow: hidden;
+	padding: 0;
+}
+
+.menu ul li a {
+	width: 70px;
+	margin: 10px;
+	margin: 0;
+	border: none;
+}
+
+#ddsc a {
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 45px;
+}
+
+#ddt a {
+	font-size: 14px;
+	padding-right: 20px;
+	padding-left: 44px;
+}
+
+#ddb a {
+	font-size: 14px;
+	padding-right: 4px;
+	padding-left: 45px;
+}
+
+.menu img {
+	float: left;
+	margin-top: 1px;
+	margin-left: 7px;
+}
+
+#socialmedia {
+	float: right;
+	margin-right: 60px;
+}
+
+section {
+	width: 1000px;
+	min-height: 500px;
+	overflow: hidden;
+	background-color: #222;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#headline {
+	width: 1000px;
+	height: 45px;
+	font-family: arial;
+	font-size: 20px;
+}
+#headline a {
+	text-decoration: none;
+	margin-top: 7px;
+	margin-left: 60px;
+	float: left;
+	color: white;
+	padding-top: 4px;
+}
+
+.h1 {
+	font-family: Martina;
+	margin-left: 40px;
+	margin-bottom:0px;
+	margin-right:0px;
+	font-size: 30px;
+	color: white;
+	margin-top: 20px;
+	color: white;
+}
+.x1 {
+	color: #BF00FF;
+}
+.text {
+	color: white;
+	font-size: 14px;
+	margin-top: 14px;
+	margin-left: 40px;
+}
+
+#links{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+#ts img{
+	width: 75px;
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+#ts b {
+	margin-top: 26px;
+	margin-left: 20px;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+#twitter img{
+	width: 75px;
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+#twitter b {
+	margin-top: 26px;
+	margin-left: 20px;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+#insta img{
+	width: 75px;
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+#insta b {
+	margin-top: 26px;
+	margin-left: 20px;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+#yt img{
+	width: 75px;
+	margin-top: 0px;
+	margin-left: 50px;
+	float: left;
+}
+#yt b {
+	margin-top: 26px;
+	margin-left: 20px;
+	float: left;
+	color: white;
+	font-size: 18px;
+}
+#grey {
+	width: 280px;
+	height: 35px;
+	background-color: grey;
+	border-radius: 5px;
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-left: 350px;
+	opacity: 0.5;
+	font-size: 20px;
+	margin-bottom: 30px;
+}
+#grey a {
+	color: white;
+	margin-left: 18px;
+	padding-top: 10px;
+}
+#wunsch {
+	margin-left: 155px;
+	margin-top: 30px;
+	background-color: #f2f2f2;
+	border-radius: 12px;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+#bewerbung {
+	margin-top: 30px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+	margin-left: 155px;
+	background-color: #F2F2F2;
+	border-radius: 12px;
+	margin-bottom: 30px;
+}
+.mitglied {
+	width: 410px;
+	height: 130px;
+	border: 2px solid purple;
+	float: left;
+	margin-left: 58px;
+	margin-bottom: 60px;
+	background-color: #343333;
+}
+.mitglied a {
+	color: white;
+	font-size: 28px;
+	float: left;
+	margin-top: 49px;
+	margin-left: 20px;
+}
+.mitglied img {
+	margin-top: 9px;
+	margin-left: 20px;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	padding: 6px;
+}
+.mitglied2 {
+	width: 410px;
+	height: 130px;
+	border: 2px solid purple;
+	float: left;
+	margin-left: 58px;
+	margin-bottom: 60px;
+	background-color: #343333;
+}
+.mitglied2 a {
+	color: white;
+	font-size: 28px;
+	float: left;
+	margin-top: 21px;
+	margin-left: 20px;
+}
+.mitglied2 img {
+	margin-top: 9px;
+	margin-left: 20px;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	padding: 6px;
+}
+#mitglied {
+	width: 410px;
+	height: 130px;
+	border: 2px solid purple;
+	float: left;
+	margin-left: 58px;
+	margin-bottom: 60px;
+	margin-top: 40px;
+	background-color: #343333;
+}
+#mitglied a {
+	color: white;
+	font-size: 30px;
+	float: left;
+	margin-top: 48px;
+	margin-left: 20px;
+}
+#mitglied img {
+	margin-top: 9px;
+	margin-left: 20px;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	padding: 6px;
+}
+
+.owner {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #990000;
+	float: right;
+}
+.owner b {
+	font-size: 16px;
+	float: right;
+}
+
+.admin {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: red;
+	float: right;
+}
+.admin b {
+	font-size: 22px;
+	float: right;
+}
+
+.dev {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #3333FF;
+	float: right;
+}
+.dev b {
+	font-size: 16px;
+	float: right;
+}
+
+.mod {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #009999;
+	float: right;
+}
+.mod b {
+	font-size: 16px;
+	float: right;
+}
+
+.sup {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #00FFFF;
+	float: right;
+}
+.sup b {
+	font-size: 16px;
+	float: right;
+}
+
+.builder {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #FF9900;
+	float: right;
+}
+.builder b {
+	font-size: 16px;
+	float: right;
+}
+
+.content {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #FFFF33;
+	float: right;
+}
+.content b {
+	font-size: 16px;
+	float: right;
+}
+
+.cm {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #FFFF33;
+	float: right;
+}
+.cm b {
+	font-size: 16px;
+	float: right;
+}
+
+.designer {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #CC00CC;
+	float: right;
+}
+.designer b {
+	font-size: 16px;
+	float: right;
+}
+
+.sec-man {
+	margin-right: 15px;
+	margin-top: 8px;
+	color: #CC00CC;
+	float: right;
+}
+.sec-man b {
+	font-size: 16px;
+	float: right;
+}
+
+#hteam {
+	margin-left: 60px;
+	font-size: 24px;
+	color: white;
+	margin-bottom: 0px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	
+}
+
+.CLeft {
+	width: 400px;
+	height: 500px;
+	float: left;
+	background-color: #222;
+	margin-top: 0px;
+}
+.CRight {
+	width: 400px;
+	float: right;
+	height: 500px;
+	background-color: #222;
+	margin-top: 0px;
+}
+.CLeft a {
+	color: white;
+	font-size: 20px;
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom:0px;
+	margin-right:0px;
+}
+.CRight a {
+	color: white;
+	font-size: 20px;
+	margin: 0px;
+}
+
+#foot {
+	background-color: #343333;
+	width: 1000px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top: 2px solid purple;
+	border-bottom: 2px solid purple; 
+	margin-bottom: 60px;
+}
+#fcontent a {
+	font-family: Helvetica;
+	color: white;
+	text-decoration: none;
+}
+#foot a:hover {
+	color: purple;
+}
+
+#fcontent {
+	text-decoration: none;
+}
