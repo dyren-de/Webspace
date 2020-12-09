@@ -1,7 +1,7 @@
 Body {
 	font-family: Georgia, Times, "Times New Roman", serif;
 	background-color: #003;
-	background-image: url(bilder/back.jpg);
+	background-image: url(/bilder/back.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
